@@ -144,7 +144,7 @@ polygon 을 이용하여, 다양한 각도에서도 잘 디텍션 할수 있도�
 ### 2단계 : 운송장번호 위치 값 Annotation  
 <img width="275" alt="스크린샷 2023-02-21 오후 3 21 49" src="https://user-images.githubusercontent.com/112835087/220266264-51fb689e-0618-4570-a824-7416f64dad24.png">
 
-❗Total Data Set 구성  
+## Total Data Set 구성  
 Box DataSet  
 image : 3287장, 객체 수 : 4,837개, Hole(구멍,찢어짐) : 2,226개 , Wet(젖음) : 2,611개  
 Tracking DataSet  
@@ -159,11 +159,11 @@ Tracking data | 2023 | YOLOv8 | [Tracking data](https://universe.roboflow.com/de
 <img width="600" alt="스크린샷 2023-02-20 오후 4 46 36" src="https://user-images.githubusercontent.com/112835087/220043929-748afad6-e9f6-4e15-8fa9-b606af1c46f8.png">
 <img width="600" alt="스크린샷 2023-02-21 오후 3 21 44" src="https://user-images.githubusercontent.com/112835087/220263968-ccf9e9b3-34bb-4d11-8971-d06969568954.png">
 
- - image size & resize  
+ ## image size & resize  
  640 x 640 -> 1280 x 1280 -> 2048 x 2048  
  --> yolov7 논문 참조시 데이터셋 640 x 640 학습 추후 데이터 핸들링을 통하여 resize 작업 진행
 
- - Augmentation  
+ ## Augmentation  
  crop 10° -> 데이터 증강을 위한 Agumentation  
  yolov7, yolov8 hyper param 기능 agumentation: True  
  (Mosaic : 1.0, fliplr : 0.5, scale : 0.5, translate : 0.1, hsv_h : 0.015, hsv_s = 0.7, hsv_v = 0.4)
