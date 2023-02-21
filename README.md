@@ -234,6 +234,17 @@ noise 제거를 통한 recognize 준비
 
 ---
 
+# ✏️ Coding  
+원할한 Process를 이루기 위해서 하드코딩 작업을 실행했다.  
+1. 객체가 중간에 검출되어 사진을 저장하는 로직    
+-> img size 를 고려하여 , bbox 값의 max일때 사진을 저장한다.  
+
+2. 검출된 객체를 카운팅하여 DB를 저장하는 로직  
+-> bbox return 값을 classes 별로 counting 하는 작업  
+
+3. flag를 활용하여 1, 2번을 실행하는 로직  
+-> img x좌표를 기준으로 flag 영역을 만들어서 0, 1 로 조건문을 만들어 두 로직을 실행하는 작업 
+
 --- 
 # 📊 Result
 ## Train Result  
