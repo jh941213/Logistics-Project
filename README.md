@@ -234,7 +234,7 @@ MODEL|CoreML|YOLOv4|YOLOv5|YOLOv7|YOLOv8|EfficientDet
 -----|-------|-------|-------|-------|-------|-------|
 imgsize|1280x1280|640x640|640x640,1280x1280|640x640,1280x1280|640x640,1280x1280|1280x1280
 epochs(best)| 3200|6000|100(78)|100(83)|100(87)|10000(9752)
-data|3단계 데이터셋|2단계 데이터셋|3단계 데이터셋|3단계 데이터셋|3단계 데이터셋|3단계 데이터셋
+data|3단계|2단계|3단계|3단계|3단계 |3단계
 mAP| 0.78| 0.57| 0.81, 0.85| 0.45| 0.81,0.86| 0.79
 agumentation| crop 10| crop10| crop10, hyper params | crop10, hyper params | crop10, hyper params | crop10
 
