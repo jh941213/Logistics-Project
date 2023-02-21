@@ -230,7 +230,7 @@ noise 제거를 통한 recognize 준비
 
 --- 
 # 📊 Result
-MODEL|COMEML|YOLOv4(darknet)|YOLOv5|YOLOv7|YOLOv8|EfficientDet
+MODEL|CoreML|YOLOv4|YOLOv5|YOLOv7|YOLOv8|EfficientDet
 -----|-------|-------|-------|-------|-------|-------|
 imgsize|1280x1280|640x640|640x640,1280x1280|640x640,1280x1280|640x640,1280x1280|1280x1280
 epochs(best)| 3200|6000|100(78)|100(83)|100(87)|10000(9752)
