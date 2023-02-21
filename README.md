@@ -16,7 +16,7 @@ CPU | Apple M1(10core)|i7-8565U| i7 4core|Xeon(R)cpu 2.3GHz|
 RAM |32GB|16GB|16GB|13~52GB|  
 Storage |512GB|512GB|250GB|166GB|
 OS |macOS ventura|Window 10|-|-|
-MOBILE |iphone 13 mini|Galaxy S10|-|-|  
+MOBILE |Iphone 13 Mini|Galaxy S10|-|-|  
 
 # Index
 - [🔑 Project Summary](#project-summary)
@@ -230,8 +230,14 @@ noise 제거를 통한 recognize 준비
 
 --- 
 # 📊 Result
+MODEL|COMEML|YOLOv4(darknet)|YOLOv5|YOLOv7|YOLOv8|EfficientDet
+-----|-------|-------|-------|-------|
+imgsize|1280x1280|640x640|640x640,1280x1280|640x640,1280x1280|640x640,1280x1280|1280x1280
+epochs(best)| 3200|6000|100(78)|100(83)|100(87)|10000(9752)
+data|3단계 데이터셋|2단계 데이터셋|3단계 데이터셋|3단계 데이터셋|3단계 데이터셋|3단계 데이터셋
+mAP| 0.78| 0.57| 0.81, 0.85| 0.45| 0.81,0.86| 0.79
+agumentation| crop 10| crop10| crop10, hyper params | crop10, hyper params | crop10, hyper params | crop10
 
-<img width="900" alt="스크린샷 2023-02-20 오전 11 37 41" src="https://user-images.githubusercontent.com/112835087/219996877-26ea1b7a-0ae9-4607-adb2-3ced414ba8e6.png">
 
 <img width="900" alt="스크린샷 2023-02-17 오후 5 24 48" src="https://user-images.githubusercontent.com/112835087/219592154-6165df04-bad7-4c72-bc9a-3a1802e81278.png"> 
 <img width="900" alt="스크린샷 2023-02-20 오전 11 34 45" src="https://user-images.githubusercontent.com/112835087/219996520-81a91314-011e-4cdb-ad3a-8fea6d395f57.png">
