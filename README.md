@@ -213,7 +213,7 @@ noise 제거를 통한 recognize 준비
 
 ---
 # 🚀 Model Serving
-
+[figma](https://www.figma.com/file/y45ZcUjbMDzBwqxLcEm0Ly/%EC%88%9C%EC%96%91%ED%83%9D%EB%B0%B0?node-id=4%3A7074&t=OHy4rcxMU1MTGC3U-4)
 > - Model serving  
 > Flask 를 활용하여 local host 웹 서버 구축 (사용자 local에 영역을 받는다.  
 > Box Detect page, Tracking number page(OCR) 을 구분하여 두 페이지 영역 구성  
