@@ -112,6 +112,7 @@ Team Leader|Team Member|
 ---
 
 # 📦 Data Set  
+
 ## Box Data Set Annotation  
  라벨 : Hole(구멍, 찢어짐), Wet(젖음)  
  Annotation 을 위하여 Hole, Wet의 일정 패턴을 파악하여 반복 학습 할 수 있도록 Annotation 작업 진행 (Key Point)🔑   
@@ -124,23 +125,23 @@ Team Leader|Team Member|
 2단계 : 운송장번호가 있는 위치값을 학습 -> mAP 0.995  
 polygon 을 이용하여, 다양한 각도에서도 잘 디텍션 할수 있도록 annotation 작업을 해주었다.  
 
-## Box data set flow
+## [🌊Box data set flow]
 
-### - 1단계 : 웹 크롤링 을 통하여 데이터 수집 (987장)  
+### 1단계 : 웹 크롤링 을 통하여 데이터 수집 (987장)  
 <img width="600" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042612-52484d5e-66b8-4cf8-8e41-ec2dcde76775.png">  
 
-### - 2단계 : 웹 크롤링 자체적인 길거리 탐색 데이터 수집 (1684장)  
+### 2단계 : 웹 크롤링 자체적인 길거리 탐색 데이터 수집 (1684장)  
 <img width="600" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042773-d6daa80c-1758-40d5-8247-dbfa3cf6bb05.png">  
 
-### - 3단계 : 갈색박스 상자 구매후 자체적인 데이터셋 제작 (3287장)   
+### 3단계 : 갈색박스 상자 구매후 자체적인 데이터셋 제작 (3287장)   
 <img width="600" alt="스크린샷 2023-02-20 오후 4 40 45" src="https://user-images.githubusercontent.com/112835087/220042859-f769a323-bf14-4b64-b198-412931588292.png">  
 
-## tracking number data set flow
+## [🌊tracking number data set flow]
 
-### - 1단계 : 송장 전체를 annotation  
+### 1단계 : 송장 전체를 Annotation  
 <img width="600" alt="스크린샷 2023-02-21 오후 3 35 41" src="https://user-images.githubusercontent.com/112835087/220266165-738a6e19-0852-447d-8801-dbe6b48c1c72.png">  
 
-### - 2단계 : 운송장번호 위치 값 annotation  
+### 2단계 : 운송장번호 위치 값 Annotation  
 <img width="275" alt="스크린샷 2023-02-21 오후 3 21 49" src="https://user-images.githubusercontent.com/112835087/220266264-51fb689e-0618-4570-a824-7416f64dad24.png">
 
 ❗Total Data Set 구성  
