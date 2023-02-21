@@ -90,6 +90,7 @@ Team Leader|Team Member|
 # Index
 - [🔑 Project Summary](#project-summary)
 - [📦 Data Set](#Data-set)
+- [🏞️ Image Processing](#Image-Processing)
 - [🚀 Model Serving](#Model-Serving)
 - [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
 - [👥 Roles](#-roles)
