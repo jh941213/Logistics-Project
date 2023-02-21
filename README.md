@@ -14,7 +14,33 @@ Team Leader|Team Member|
 
 ---
 
-[📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
+# Index
+- [🔑 Project Summary](#project-summary)
+- [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
+- [👥 Roles](#-roles)
+- [🧘 Feature](#-feature)
+- [📦 Data Set](#Data-set)
+- [🏞️ Image Processing](#Image-Processing)
+- [🚀 Model Serving](#Model-Serving)
+- [📊 Result](#-result)
+- [📷 Show Result](-Show-Result)
+- [💻 Requirements](#-requirements)
+- [🔧 Folder Structure](#-folder-structure)
+- [📜 Reference](#-Reference)
+
+---
+
+# 🔑Project Summary
+> - 주제  
+> 물류센터(HUB, CAMP) 등 컨테이너 벨트 과정에서 박스 패키징의 찢어지거나 젖음과 같은 결함을 RealTime Detection 하여 각 레일에 위치에 있는 인적자원을 AI 로 대체해 자동화시스템을 구축  
+
+> - 인사이트  
+> 쿠팡과 같은 대형물류 센터에서는 오토소터와 같은 송장정보를 인식하는 바코드기반의 대형센서 장비가 구비되어 현재 자동화 시스템을 구축하고 있다고 한다. 근데 그 과정에서 기존 레일의 철수 및 재 정비 설치 과정에서 막대한 비용과 오토소터 자체의 큰 비용으로 인해 우리의 AI 모델을 사용한다면 저비용 고효율이란 효과를 낼 수 있지 않을까란 생각. 고객경험이 좋아지고, 오상차 오배송에 대한 데이터 축적으로 내부 프로세스 평가 반영 가능 등 B2B, B2C 관점에서 다양한 부분으로 인적, 경제적인 이득이 가능하다.  
+
+
+---
+
+# [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
 
 >**[2023.01.02 ~ 2023.01.06]**
 >- 프로젝트 주제 탐색 및 선정
@@ -87,28 +113,17 @@ Team Leader|Team Member|
 >- 중간발표 및 점검.
 ---
 
-# Index
-- [🔑 Project Summary](#project-summary)
-- [📦 Data Set](#Data-set)
-- [🏞️ Image Processing](#Image-Processing)
-- [🚀 Model Serving](#Model-Serving)
-- [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
-- [👥 Roles](#-roles)
-- [🧘 Feature](#-feature)
-- [📊 Result](#-result)
-- [📷 Show Result](-Show-Result)
-- [💻 Requirements](#-requirements)
-- [🔧 Folder Structure](#-folder-structure)
-- [📜 Reference](#-Reference)
+# 👥 Roles
+> - 김재현 : modeling by yolov7, yolov8(Train, Valid, Test), OCR Modeling, Flask Serving Coding, mySQL build
+> - 이성연 : Data Process, YOLO model thesis reference serch, YOLOV4 Modeling
 
 ---
 
-# 🔑Project Summary
-> - 주제  
-> 물류센터(HUB, CAMP) 등 컨테이너 벨트 과정에서 박스 패키징의 찢어지거나 젖음과 같은 결함을 RealTime Detection 하여 각 레일에 위치에 있는 인적자원을 AI 로 대체해 자동화시스템을 구축  
-
-> - 인사이트  
-> 쿠팡과 같은 대형물류 센터에서는 오토소터와 같은 송장정보를 인식하는 바코드기반의 대형센서 장비가 구비되어 현재 자동화 시스템을 구축하고 있다고 한다. 근데 그 과정에서 기존 레일의 철수 및 재 정비 설치 과정에서 막대한 비용과 오토소터 자체의 큰 비용으로 인해 우리의 AI 모델을 사용한다면 저비용 고효율이란 효과를 낼 수 있지 않을까란 생각. 고객경험이 좋아지고, 오상차 오배송에 대한 데이터 축적으로 내부 프로세스 평가 반영 가능 등 B2B, B2C 관점에서 다양한 부분으로 인적, 경제적인 이득이 가능하다.  
+# 🧘 Feature
+> - Detection 최적의 모델을 찾기 위한 YOLO, efficientDet, CoreML등 객체모델 학습 및 테스트  
+> - Make Data Set 구축을 위한 현실에서의 데이터 셋 Searh & Make  
+> - EasyOCR, Tesseract, MMOCR 등 오픈소스기반의 OCR 모델 사전 테스트 및 fine tune  
+> - NAVER Clova AI, KAKAO 등 국내 기업의 OCR API 사용 
 
 ---
 
@@ -207,29 +222,9 @@ noise 제거를 통한 recognize 준비
 <img width="1390" alt="스크린샷 2023-02-20 오후 4 00 36" src="https://user-images.githubusercontent.com/112835087/220035726-7b73c749-a29f-4aa8-bba9-14de7cda6744.png">  
 
 ### Tracking number Page   
-<img width="1389" alt="스크린샷 2023-02-20 오후 4 00 51" src="https://user-images.githubusercontent.com/112835087/220036983-1b3a7d94-17e4-45ee-ba6c-3c18363c46be.png">
+<img width="1389" alt="스크린샷 2023-02-20 오후 4 00 51" src="https://user-images.githubusercontent.com/112835087/220036983-1b3a7d94-17e4-45ee-ba6c-3c18363c46be.png">  
 
-
-
----
-
-# [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
-
----
-
-# 👥 Roles
-> - 김재현 : modeling by yolov7, yolov8(Train, Valid, Test), OCR Modeling, Flask Serving Coding, mySQL build
-> - 이성연 : Data Process, YOLO model thesis reference serch, YOLOV4 Modeling
-
----
-
-# 🧘 Feature
-> - Detection 최적의 모델을 찾기 위한 YOLO, efficientDet, CoreML등 객체모델 학습 및 테스트  
-> - Make Data Set 구축을 위한 현실에서의 데이터 셋 Searh & Make  
-> - EasyOCR, Tesseract, MMOCR 등 오픈소스기반의 OCR 모델 사전 테스트 및 fine tune  
-> - NAVER Clova AI, KAKAO 등 국내 기업의 OCR API 사용 
-
----
+--- 
 # 📊 Result
 
 <img width="900" alt="스크린샷 2023-02-20 오전 11 37 41" src="https://user-images.githubusercontent.com/112835087/219996877-26ea1b7a-0ae9-4607-adb2-3ced414ba8e6.png">
