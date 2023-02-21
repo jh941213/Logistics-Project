@@ -20,7 +20,7 @@ MOBILE |Iphone 13 Mini|Galaxy S10|-|-|
 
 # Index
 - [🔑 Project Summary](#project-summary)
-- [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
+- [📆 Schedule(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
 - [👥 Roles](#-roles)
 - [🧘 Feature](#-feature)
 - [📦 Data Set](#Data-set)
@@ -44,7 +44,7 @@ MOBILE |Iphone 13 Mini|Galaxy S10|-|-|
 
 ---
 
-# [📆Procedures(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
+# [📆 Schedule(Time Stamp)](https://timetreeapp.com/calendars/Bs7yrwhD6Q5H)
 
 >**[2023.01.02 ~ 2023.01.06]**
 >- 프로젝트 주제 탐색 및 선정
