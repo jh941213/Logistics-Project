@@ -232,6 +232,8 @@ noise 제거를 통한 recognize 준비
 
 --- 
 # 📊 Result
+## Train Result  
+
 MODEL|CoreML|YOLOv4|YOLOv5|YOLOv7|YOLOv8|EfficientDet
 -----|-------|-------|-------|-------|-------|-------|
 imgsize|1280x1280|640x640|640x640,1280x1280|640x640,1280x1280|640x640,1280x1280|1280x1280
