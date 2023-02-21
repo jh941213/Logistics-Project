@@ -11,15 +11,10 @@ Team Leader|Team Member|
 
 # 🖥️ Team Preferences  
 비고|local(김재현)|(local(이성연) | AWS Server | Google Colab
------|-------|-------|-------|-------|
 CPU | Apple M1(10core)|i7-8565U| i7 4core|Xeon(R)cpu 2.3GHz|
------|-------|-------|-------|-------|
 RAM |32GB|16GB|16GB|13~52GB|  
------|-------|-------|-------|-------|
 Storage |512GB|512GB|250GB|166GB|
------|-------|-------|-------|-------|
 OS |macOS ventura|Window 10|-|-|
------|-------|-------|-------|-------|
 MOBILE |iphone 13 mini|Galaxy S10|-|-|  
 
 # Index
