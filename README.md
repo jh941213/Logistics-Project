@@ -10,8 +10,13 @@ Team Leader|Team Member|
 <img src="https://user-images.githubusercontent.com/112835087/214769736-c6880568-a4f9-42f7-b5d9-3ef466b6a997.jpeg" width="100" height="100">|<img src="https://user-images.githubusercontent.com/112835087/214769769-f12d45ae-6b09-4567-b142-591c73ccffdb.png" width="100" height="100">
 
 # 🖥️ Team Preferences  
-<img width="1252" alt="스크린샷 2023-02-20 오전 11 05 07" src="https://user-images.githubusercontent.com/112835087/219992649-746bb69d-0220-49d5-9882-300110dce746.png" width='100' height='300'>  
-
+|local(김재현)|(local(이성연) | AWS Server | Google Colab
+------|------|------|------|------|
+CPU |------|------|------|------|
+RAM |------|------|------|------|
+Storage |------|------|------|------|
+OS |------|------|------|------|
+MOBILE |------|------|------|------|
 ---
 
 # Index
