@@ -121,13 +121,18 @@ Team Leader|Team Member|
 ## Data Set 구성
 
 ### 1단계 : 웹 크롤링 을 통하여 데이터 수집 (987장)  
-<img width="612" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042612-52484d5e-66b8-4cf8-8e41-ec2dcde76775.png">  
+<img width="600" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042612-52484d5e-66b8-4cf8-8e41-ec2dcde76775.png">  
 
 ### 2단계 : 웹 크롤링 자체적인 길거리 탐색 데이터 수집 (1684장)  
-<img width="612" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042773-d6daa80c-1758-40d5-8247-dbfa3cf6bb05.png">  
+<img width="600" alt="스크린샷 2023-02-20 오후 4 39 12" src="https://user-images.githubusercontent.com/112835087/220042773-d6daa80c-1758-40d5-8247-dbfa3cf6bb05.png">  
 
 ### 3단계 : 갈색박스 상자 구매후 자체적인 데이터셋 제작 (3287장)   
-<img width="607" alt="스크린샷 2023-02-20 오후 4 40 45" src="https://user-images.githubusercontent.com/112835087/220042859-f769a323-bf14-4b64-b198-412931588292.png">  
+<img width="600" alt="스크린샷 2023-02-20 오후 4 40 45" src="https://user-images.githubusercontent.com/112835087/220042859-f769a323-bf14-4b64-b198-412931588292.png">  
+
+### 송장 데이터 : Annotation
+<img width="600" alt="스크린샷 2023-02-21 오후 3 21 44" src="https://user-images.githubusercontent.com/112835087/220263968-ccf9e9b3-34bb-4d11-8971-d06969568954.png">
+
+<img width="275" alt="스크린샷 2023-02-21 오후 3 21 49" src="https://user-images.githubusercontent.com/112835087/220263985-89cefdf9-3349-4cca-adb4-771db27a5212.png">
 
 ❗Total Data Set 구성  
 image : 3287장, 객체 수 : 4,837개, Hole(구멍,찢어짐) : 2,226개 , Wet(젖음) : 2,611개  
