@@ -213,7 +213,7 @@ noise 제거를 통한 recognize 준비
 
 ---
 # 🚀 Model Serving
-### WEB(UserInterface)
+### WEB(Design)
 - [figma](https://www.figma.com/file/y45ZcUjbMDzBwqxLcEm0Ly/%EC%88%9C%EC%96%91%ED%83%9D%EB%B0%B0?node-id=4%3A7074&t=OHy4rcxMU1MTGC3U-4)  
 
 ### Flask(freamework)
