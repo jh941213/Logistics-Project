@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SsangmunDong';
+    src: url(D:\vscode\yolov8Serving\fonts\Typo_SsangmunDongB.ttf) format('truetype');
+    src: url(D:\vscode\yolov8Serving\fonts\Typo_SsangmunDongB.woff) format('woff');
+    src: url(D:\vscode\yolov8Serving\fonts\typo_ssangmundongb-eot) format('embeddedopentype');
+}
+
+body{font-family: "SsangmunDong"; font-size: 14px;}

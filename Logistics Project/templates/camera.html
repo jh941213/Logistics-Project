@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title>불량 패킹 확인</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/camera.css') }}">
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/container.css') }}">
+    <link rel="stylesheet" type='text/css' href="{{ url_for('static', filename='css/fonts.css') }}">
+  </head>
+  <body>
+  <div class="container">
+    <img src="static\images\Soonyang_det_nopic.png" alt="det">
+    <div class="camera">
+    <img src="{{ url_for('video_feed') }}" style="width:100%; height:55%;"></div>
+    <button class="button" type="button" onclick="javascript:window.open('/');"> &lt; 뒤로가기</button>
+  </div>
+  </body>
+</html>

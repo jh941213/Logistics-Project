@@ -1,0 +1,22 @@
+.container .camera{
+    position: absolute;
+    left: 33%;
+    top: 31.25%;
+    width: 35%;
+    height: 100%;
+    border:#fff;
+}
+
+.button{
+    position: relative;
+    background-color: #9d9242;
+    left: 30%;
+    top: 82%;
+    width: 40%;
+    height: 5%;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+    }
