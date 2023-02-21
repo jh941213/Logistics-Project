@@ -130,12 +130,17 @@ Team Leader|Team Member|
 <img width="600" alt="스크린샷 2023-02-20 오후 4 40 45" src="https://user-images.githubusercontent.com/112835087/220042859-f769a323-bf14-4b64-b198-412931588292.png">  
 
 ### 송장 데이터 : Annotation
-<img width="600" alt="스크린샷 2023-02-21 오후 3 21 44" src="https://user-images.githubusercontent.com/112835087/220263968-ccf9e9b3-34bb-4d11-8971-d06969568954.png">
+![IMG_3803](https://user-images.githubusercontent.com/112835087/220264742-5250ae19-5430-4db5-a4ad-25809deb63e2.jpg)
+<img width="255" alt="스크린샷 2023-02-21 오후 3 27 31" src="https://user-images.githubusercontent.com/112835087/220264772-4f6b93a9-fbd0-49b7-b4dd-dab97f17fad4.png">
+
 
 <img width="275" alt="스크린샷 2023-02-21 오후 3 21 49" src="https://user-images.githubusercontent.com/112835087/220263985-89cefdf9-3349-4cca-adb4-771db27a5212.png">
 
 ❗Total Data Set 구성  
+Box DataSet  
 image : 3287장, 객체 수 : 4,837개, Hole(구멍,찢어짐) : 2,226개 , Wet(젖음) : 2,611개  
+Tracking DataSet  
+image : 250장 , 객체 수 : 250개, trackingnumber : 250개
 
 
 데이터 종류| 일자 | 사용기술 | 링크
@@ -143,7 +148,8 @@ image : 3287장, 객체 수 : 4,837개, Hole(구멍,찢어짐) : 2,226개 , Wet(
 Box data | 2023 | YOLOv8 | [Box data](https://universe.roboflow.com/jaehyun-kim/finalbox)
 Tracking data | 2023 | YOLOv8 | [Tracking data](https://universe.roboflow.com/deeple/trackingnumberod)
 
-<img width="747" alt="스크린샷 2023-02-20 오후 4 46 36" src="https://user-images.githubusercontent.com/112835087/220043929-748afad6-e9f6-4e15-8fa9-b606af1c46f8.png">
+<img width="600" alt="스크린샷 2023-02-20 오후 4 46 36" src="https://user-images.githubusercontent.com/112835087/220043929-748afad6-e9f6-4e15-8fa9-b606af1c46f8.png">
+<img width="600" alt="스크린샷 2023-02-21 오후 3 21 44" src="https://user-images.githubusercontent.com/112835087/220263968-ccf9e9b3-34bb-4d11-8971-d06969568954.png">
 
  - image size & resize  
  640 x 640 -> 1280 x 1280 -> 2048 x 2048  
