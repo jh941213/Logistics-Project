@@ -243,7 +243,7 @@ YOLOv8.pt 파일의 가중치 용량이다.
 
 
 # 🙆 Conclusion 
-### Positive point😀
+### Positive point
 1.  현실이나 현업에는 우리가 원하는 데이터셋이 없을 가능성이 높다! 그래서 우리가 직접데이터를 만들자 직접 데이터 제작, 수집, 가공 처리  
 😀 Hand Made Data Set 구성! 
 
@@ -254,7 +254,7 @@ YOLOv8.pt 파일의 가중치 용량이다.
 -> 한가지 관점으로만 바라보지 말 것.  
 -> 기존 OCR 취약점의 개선하기 위해 자체 모델링 구상중이다.  
 
-### Lesson learned🤔  
+### Lesson learned 
 1.  Cv 분야에서 중요한 데이터에 대한 이해도와 Task 이해도 능력 향상  
 -> image classfication , Object Detection 에서 중요한 Annotation 의 패턴, 요소를 분석하여 작업 , Hyper Params 를 적극적으로 이해하고 활용하자. 
 
