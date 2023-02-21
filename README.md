@@ -342,7 +342,7 @@ tqdm>=4.64.0
 ```
 ---
 
-# 🔧 Folder Structure
+# 🔧 Project Structure
 
 <img width="420" alt="스크린샷 2023-02-21 오후 1 06 15" src="https://user-images.githubusercontent.com/112835087/220245141-956c6505-1953-4621-a676-909062a02215.png">
 
