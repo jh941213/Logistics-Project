@@ -55,19 +55,19 @@ MOBILE |Iphone 13 Mini|Galaxy S10|-|-|
 >
 >**[2023.01.06 ~ 2023.01.18]**
 >- 데이터 수집 및 전처리
->   - Anomaly Detection 특성상 불량데이터를 구하기 어려웠으므로 이를 직접 만들어냄.
+>   - RealTime Detection 특성상 불량데이터를 구하기 어려웠으므로 이를 직접 만들어냄.
 >   - 가장 보편적인 택배 상자(갈색 판지 상자)의 데이터만을 고려
 ><br>
 >
 >**[2023.01.14 ~ 2023.01.16]**
 >- 1차 Model training and testing
->   - Real Time & Anomaly Detection
+>   - Real Time Detection
 >   - Train, valid dataset split
 >   - Data Augmentation
 ><br>
 >
 >**[2023.01.17 ~ 2023.01.24]**
->- 1차 Anomaly Detection model result 분석, 평가
+>- 1차 Real Detection model result 분석, 평가
 >   - Annotating 대폭 수정 
 >- OCR / Model serving Reference Searching 시작
 >   - App service 계획이 있었으나 차후로 미룸.
