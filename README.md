@@ -315,7 +315,7 @@ YOLOv8.pt 파일의 가중치 용량이다.
 
 
 
----
+--- 
 
 # 💻 Requirements  
 ❗️YOLOv5
