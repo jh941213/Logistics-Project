@@ -28,7 +28,7 @@ MOBILE |Iphone 13 Mini|Galaxy S10|-|-|
 - [🚀 Model Serving](#-model-serving)
 - [✏️ Coding](#-coding)
 - [📊 Result](#-result)
-- [📷 Show Result](-show-result)
+- [📷 Show Result](#-show-result)
 - [🙆 Conclusion](#-conclusion)
 - [💻 Requirements](#-requirements)
 - [🔧 Folder Structure](#-folder-structure)
